@@ -17,7 +17,7 @@ public class JDBCExecutor {
             Connection connection= dcm.getConnection();
             CustomerDAO customerDAO=new CustomerDAO(connection);
             Customer cstm = customerDAO.findById(100);
-            System.out.println("This is Customers");
+            System.out.println("This is Customer");
             System.out.println(cstm);
 
 //                //Insert
